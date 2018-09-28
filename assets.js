@@ -16,11 +16,11 @@ function assetsLoadingLoop(callback) {
 //create function that loads all the assests for the game
 function loadAssets (callback) {
 
-    function loadSprite(filename) {
+    function loadSprite(fileName) {
         assetsStillLoading++;
 
         let spriteImage = new Image();
-        spriteImage.src = "./assets/sprites/" + filename;
+        spriteImage.src = "./assets/sprites/" + fileName;
 
         spriteImage.onload = function () {
             assetsStillLoading--;
