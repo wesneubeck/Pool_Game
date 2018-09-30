@@ -41,7 +41,7 @@ Stick.prototype.increasePower = function() {
     this.origin.x += 5;
 }
 
-Stick.prototype.shoot = function () {
+Stick.prototype.shoot = function() {
     
     this.onShoot(this.power, this.rotation);
     this.power = 0;

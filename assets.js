@@ -22,7 +22,7 @@ function loadAssets (callback) {
         let spriteImage = new Image();
         spriteImage.src = "./assets/sprites/" + fileName;
 
-        spriteImage.onload = function () {
+        spriteImage.onload = function() {
             assetsStillLoading--;
         }
 

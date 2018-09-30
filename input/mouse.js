@@ -55,7 +55,7 @@ function MouseHandler () {
 
 }
 
-MouseHandler.prototype.reset  =  function () {
+MouseHandler.prototype.reset  =  function() {
 
     this.left.pressed = false;
     this.middle.pressed = false;
